@@ -22,7 +22,7 @@ const MobileScreen: React.FC<{
 
 const Hero: React.FC<HeroProps> = ({ tone, content }) => {
   const whatsappLink =
-    "https://wa.me/5585996537401?text=ola%2C%20Loid%20Padre%2C%20quero%20testar%20o%20Voxidea.";
+    "https://api.whatsapp.com/send?phone=5585996537401&text=ola%2C%20Loid%20Padre%2C%20quero%20testar%20o%20Voxidea.";
 
   return (
     <section className="relative pt-4 lg:pt-12 pb-20 lg:pb-32 overflow-hidden lg:overflow-visible">
