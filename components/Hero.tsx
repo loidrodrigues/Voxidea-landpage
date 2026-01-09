@@ -105,7 +105,7 @@ const Hero: React.FC<HeroProps> = ({ tone, content }) => {
         </div>
 
         {/* Right Side: Visual Mockup Stack */}
-        <div className="flex-1 relative w-full h-[550px] sm:h-[650px] lg:h-[750px] flex items-center justify-center mt-24 lg:mt-0 overflow-visible">
+        <div className="flex-1 relative w-full h-[550px] sm:h-[650px] lg:h-[750px] flex items-center justify-center mt-56 lg:mt-0 overflow-visible">
           {/* Print 1: Descubra & Vote (Screen 1 - Left) */}
           <div className="absolute transform -translate-x-12 sm:-translate-x-24 -translate-y-6 -rotate-6 z-10 opacity-70 lg:opacity-90 scale-[0.7] sm:scale-85 lg:scale-95 transition-all duration-700 drop-shadow-[0_20px_30px_rgba(0,0,0,0.25)]">
             <MobileScreen>
