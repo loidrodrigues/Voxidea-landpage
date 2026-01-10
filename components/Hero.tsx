@@ -79,7 +79,7 @@ const Hero: React.FC<HeroProps> = ({ tone, content }) => {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className={`w-full sm:w-auto px-10 py-5 rounded-2xl text-lg font-bold transition-all transform hover:scale-105 active:scale-95 flex items-center justify-center gap-3 ${
+              className={`w-full sm:w-auto px-8 py-4 rounded-xl text-base font-bold transition-all transform hover:scale-105 active:scale-95 flex items-center justify-center gap-2 ${
                 tone === "bold"
                   ? "bg-blue-600 hover:bg-blue-700 text-white shadow-[0_0_30px_rgba(37,99,235,0.5)]"
                   : "bg-blue-600 hover:bg-blue-700 text-white shadow-lg"

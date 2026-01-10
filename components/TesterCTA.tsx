@@ -61,8 +61,9 @@ const TesterCTA: React.FC<TesterCTAProps> = ({ tone, content }) => {
                 tone === "bold" ? "text-zinc-500" : "text-blue-100 opacity-80"
               }`}
             >
-              Estamos abrindo o app para quem quer ajudar a moldar o futuro das
-              validações. Baixe o app e prove seu ponto.
+              Estamos abrindo o campo de batalha para os primeiros usuários. Se
+              você gosta de ideias fortes, debates reais e desafios
+              intelectuais, esse app é pra você.
             </p>
 
             <a
@@ -77,6 +78,14 @@ const TesterCTA: React.FC<TesterCTAProps> = ({ tone, content }) => {
             >
               {content.cta}
             </a>
+
+            <p
+              className={`text-sm ${
+                tone === "bold" ? "text-zinc-600" : "text-blue-200"
+              }`}
+            >
+              Feedbacks moldam o futuro do Voxidea.
+            </p>
           </div>
         </div>
       </div>
